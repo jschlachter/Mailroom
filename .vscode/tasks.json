@@ -4,6 +4,10 @@
         {
             "label": "build",
             "command": "dotnet",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "type": "process",
             "args": [
                 "build",
